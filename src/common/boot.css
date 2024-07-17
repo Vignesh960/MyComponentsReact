@@ -1,0 +1,20 @@
+@media (max-width: 1024px) {
+    .responsive-table th:nth-child(3),
+    .responsive-table td:nth-child(3),
+    .responsive-table th:nth-child(4),
+    .responsive-table td:nth-child(4) {
+      display: none;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .responsive-table th:nth-child(5),
+    .responsive-table td:nth-child(5),
+    .responsive-table th:nth-child(6),
+    .responsive-table td:nth-child(6),
+    .responsive-table th:nth-child(7),
+    .responsive-table td:nth-child(7) {
+      display: none;
+    }
+  }
+  
